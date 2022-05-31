@@ -1,0 +1,416 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    max-width: 1440px;
+    background: #F8F8F8;
+}
+h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin-bottom: 31px;
+}
+h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 56px;
+    color: #000000;
+}
+h3 {
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 39px;
+    text-align: center;
+    color: #3A3A3A;
+}
+a {
+    text-decoration: none;
+}
+.header_nav {
+    display: flex;
+    padding: 24px 20px;
+    background: #FFFFFF;
+}
+.header_menu .menu {
+    justify-self: flex-start;
+}
+li.menu_item {
+    display: inline-block;
+    list-style-type: none;
+}
+.menu_item>a {
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+    padding-right: 20px;
+}
+.logo {
+    justify-self: center;
+    margin-left: 90px;
+}
+.header_intro {
+    background: url(./img/IMAGE\ \(1\).png) center no-repeat;
+    text-align: center;
+    padding-top: 257px;
+    height: 698px;
+    position: relative;
+}
+.header_btn {
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    padding: 6px 38px 7px 41px;
+}
+.intro_small_block {
+    position: absolute;
+    margin-left: 20px;
+    bottom: 14px;
+}
+.black_btn {
+    font-family: 'Palatino Linotype';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #050505;
+    border-radius: 1px 1px 0px 0px;
+    padding: 16px 30px 14px 31px;
+}
+.nav_bar_wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+.nav_wrapp>a {
+    display: inline-block;
+}
+.nav_wrapp {
+    padding-top: 53px;
+    padding-bottom: 53px;
+}
+.nav_text {
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+    text-align: left;
+    color: #000000;
+}
+.pics_wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.pics_one_wrapp a img {
+    width: 360px;
+}
+.collections_blocks {
+    margin-top: 115px;
+    background: #F7F7F7;
+}
+.block_wrapper {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 29px;
+}
+.work_examples {
+    background: #F7F7F7;
+}
+.image_size {
+    width: 960px;
+}
+.block_text_right {
+    text-align: right;
+    padding: 96px 48px 0px;
+}
+.block_text_left {
+    text-align: left;
+    padding: 96px 48px 0px;
+    order: 1;
+}
+.title_block_descr {
+    font-family: 'Cardo';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 37px;
+    color: #000000;
+    padding-top: 4px;
+    padding-bottom: 19px;
+}
+.price {
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+}
+.full_block_descr {
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 31px;
+    color: #525252;
+}
+.shop_btn {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #000000;
+    border-bottom: 1px solid black;
+}
+.sizes { 
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #54595F;
+    padding-top: 24px;
+    padding-bottom: 47px;
+}
+.new {
+    font-family: 'Cardo';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: right;
+    color: #BC1414;
+    padding-bottom: 20px;
+}
+.adv_pic {
+    margin-top: 57px;
+}
+.work_title {
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    text-align: center;
+    color: #000000;
+    padding-top: 21px;
+    padding-bottom: 37px;
+}
+.pics_wrapper {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.inst_work_link {
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    color: #FFFFFF;
+    background: url(./img/inst_icon.png) no-repeat left;
+    padding-left: 15px;
+    position: absolute;
+}
+.pic_wrapp {
+    padding-right: 20px;
+}
+.work_link {
+    position: absolute;
+    background-image: url(./img/inst_icon.png) no-repeat left;
+    padding-top: 41px;
+    margin-left: -120px;
+}
+.work_text {
+    font-family: 'Cardo';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #020202;
+    padding-top: 138px;
+    padding-bottom: 37px;
+}
+.author {
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 155px;
+}
+.pluses {
+    background: #F8F8F8;
+}
+.pluses_wrapper {
+    display: flex;
+    text-align: center;
+    padding-bottom: 72px;
+}
+.plus_block {
+    width:370px;
+    padding-top: 56px;
+    padding-bottom: 49px;
+}
+.plus_descr {
+    max-width: 319px;
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 23px;
+}
+.plus_title {
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+    padding-top: 35px;
+    padding-bottom: 12px;
+}
+.plus_btn {
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #000000;
+}
+.white_bgr {
+    background: #FFFFFF;
+}
+.clients {
+    text-align: center;
+    background: #F7F7F7;
+    padding-top: 61px;
+}
+.our_clients {
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: #454545;
+}
+footer {
+    background: #E9E9E9;
+}
+h5 {
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    padding-top: 56px;
+    padding-bottom: 45px;
+}
+.info_wrapper {
+   display: flex;
+}
+.footer_info ul li {
+    margin: 13px 0;
+    list-style-type: none;
+}
+.contact_block {
+    text-align: center;
+    padding-bottom: 37px;
+}
+.first_info_block {
+    padding-left: 115px;
+    padding-right: 115px;
+}
+.second_info_block {
+    padding-right: 98px;
+}
+.third_info_block {
+    padding-right: 201px;
+}
+.contact_links {
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+}
+.wider_block {
+    text-align: center;
+}
+.form_title {
+    padding-top: 46px;
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+}
+.input_text {
+    padding: 5px 41px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    text-align: center;
+    margin: 22px 0px 36px 0px;
+}
+.logo_wrapper {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 60px;
+}
+.footer_text {
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+.footer_img {
+    margin-right: 40px;
+}
+
+
+
+
+
